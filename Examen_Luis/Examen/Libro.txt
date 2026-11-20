@@ -8,3 +8,19 @@ public class Libro
 	Boolean prestado;
 
 }
+
+public String getAutor()
+{
+	return autor;
+}
+
+public void setAutor(String autor)
+{
+	this.autor = autor;
+}
+
+@Override
+public String toString()
+{
+	return "Libro [titulo=" + titulo + ", ISBN=" + ISBN + ", prestado=" + prestado + "]";
+}
