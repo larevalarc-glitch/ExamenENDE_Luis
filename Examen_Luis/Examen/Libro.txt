@@ -23,4 +23,11 @@ public void setAutor(String autor)
 public String toString()
 {
 	return "Libro [titulo=" + titulo + ", ISBN=" + ISBN + ", prestado=" + prestado + "]";
+public Libro(String titulo, String autor, String iSBN, Boolean prestado)
+{
+	super();
+	this.titulo = titulo;
+	this.autor = autor;
+	ISBN = iSBN;
+	this.prestado = prestado;
 }
